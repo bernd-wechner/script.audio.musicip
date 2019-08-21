@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+	<string id="32101">MusicIP Mix Settings</string>
+	<string id="32102">Mix Size</string>
+	<string id="32103">Like Artist Style</string>
+	<string id="32104">Mix Variety</string>
+    <!-- Kodi Settings -->
+    <string id="32001">MusicIP Server Settings</string>
+	<string id="32002">MusicIP Server IP Address</string>
+	<string id="32003">Enable Dynamic Path Conversion</string>
+	<string id="32004">MusicIP Server Port</string>
+	<string id="32005">Convert Kodi Path 1</string>
+	<string id="32006">To MusicIP Path</string>
+	<string id="32007">Convert Kodi Path 2</string>
+	<string id="32008">To MusicIP Path</string>
+	<string id="32009">Convert Kodi Path 3</string>
+	<string id="32010">To MusicIP Path</string>
+
+    <string id="32013">Write Debug Info to Logfile?</string>
+</strings>

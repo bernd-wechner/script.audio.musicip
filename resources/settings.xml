@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="32101">
+		<setting label="32102" type="number" id="mixsize" default="20"/>
+		<setting label="32103" type="slider" id="style" default="20" range="0,200" option="int" />
+		<setting label="32104" type="slider" id="variety" default="0" range="0,9" option="int" />
+    </category>
+    <category label="32001">
+		<setting label="32002" type="ipaddress" id="ipaddress" default="127.0.0.1"/>
+		<setting label="32004" type="number" id="ipport" default="10002"/>
+        <setting label="32003" type="bool"   id="dynamicpathconversion" enable="!eq(-2,127.0.0.1)" default="false"/>
+        <setting label="32005" type="text" id="dpc1_from" subsetting="true" enable="!eq(-3,127.0.0.1)" default="Find and replace this in the Kodi filepath" />
+        <setting label="32006" type="text" id="dpc1_to" subsetting="true" enable="!eq(-4,127.0.0.1)" default="with this in the MusicIP path" />
+        <setting label="32007" type="text" id="dpc2_from" subsetting="true" enable="!eq(-5,127.0.0.1)" default="Second find and replace set" />
+        <setting label="32008" type="text" id="dpc2_to" subsetting="true" enable="!eq(-6,127.0.0.1)" default="" />
+        <setting label="32009" type="text" id="dpc3_from" subsetting="true" enable="!eq(-7,127.0.0.1)" default="Third find and replace set" />
+        <setting label="32010" type="text" id="dpc3_to" subsetting="true" enable="!eq(-8,127.0.0.1)" default="" />
+        <setting type="sep"/>
+        <setting label="32013" type="bool" id="debug" default="false"/>
+    </category>
+</settings>
